@@ -3,3 +3,5 @@ type: Site
 description: Applies the foundational Drupal core recipe.
 recipes:
   - core/recipes/administrator_role
+config:
+  strict: false
