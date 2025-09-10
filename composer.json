@@ -1,6 +1,6 @@
 {
     "name": "ohorbatiuk/d8_recipe",
-    "description": "Applies the foundational Drupal core recipe.",
+    "description": "Applies the foundational Drupal core recipes.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "require": {

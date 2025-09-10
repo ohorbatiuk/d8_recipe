@@ -1,7 +1,15 @@
 name: D8+ Recipe
 type: Site
-description: Applies the foundational Drupal core recipe.
+description: Applies the foundational Drupal core recipes.
 recipes:
   - core/recipes/administrator_role
+  - core/recipes/core_recommended_admin_theme
+install:
+  - d8_theme
 config:
   strict: false
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        default: d8_theme
+        favicon: true
