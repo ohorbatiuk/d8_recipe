@@ -5,6 +5,8 @@ recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_admin_theme
 install:
+  - autoban_ban
+  - autoban_dblog
   - block
   - config2php
   - d8_theme
