@@ -8,7 +8,6 @@ install:
   - autoban_ban
   - autoban_dblog
   - block
-  - config2php
   - d8_theme
   - dblog
   - exception_mailer
@@ -19,9 +18,6 @@ install:
 config:
   strict: true
   actions:
-    config2php.settings:
-      simpleConfigUpdate:
-        override: true
     dblog.settings:
       simpleConfigUpdate:
         row_limit: 0

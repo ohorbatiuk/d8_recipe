@@ -5,7 +5,6 @@
 ### Modules
 
 - [Automatic IP ban (Autoban)](https://www.drupal.org/project/autoban)
-- [Config Export to PHP array](https://www.drupal.org/project/config2php)
 - [Drupal Symfony Mailer Plus (DSM+)](https://www.drupal.org/project/symfony_mailer)
 - [Error & Exception Mailer](https://www.drupal.org/project/exception_mailer)
 - [External Links](https://www.drupal.org/project/extlink)
